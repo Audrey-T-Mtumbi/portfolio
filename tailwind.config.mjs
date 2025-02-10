@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+import { Montserrat, Poppins } from "next/font/google";
+
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -11,6 +14,17 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+    },
+    fontFamily: {
+      Poppins: ["Poppins", "sans-serif"],
+      Montserrat: ["Montserrat", "serif"],
+    },
+
+    boxShadow: {
+      shadowWhite: "2px 2px 0rgb(0, 0, 0)",
+    },
+    gridTemplateColumns: {
+      auto: "repeat(auto-fit, minmax(200px, 1fr))",
     },
   },
   plugins: [],
