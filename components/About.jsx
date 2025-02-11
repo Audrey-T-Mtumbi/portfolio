@@ -8,7 +8,7 @@ const About = () => {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-   background:"linear-gradient(to top,  rgb(85, 74, 86), white)",
+   
         padding: "50px 20px",
         minHeight: "100vh",
       }}

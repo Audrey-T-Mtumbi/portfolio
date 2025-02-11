@@ -2,8 +2,8 @@ import React from 'react';
 
 const Experience = () => {
   return (
-    <div className='h-[23rem]'  id='experience' style={{ textAlign: "center", background: "linear-gradient(to bottom,  rgb(85, 74, 86), white)",  }}>
-      <h1 className='mt-7 boldtext-6xl font-bold' style={{ fontWeight: "bold", textDecoration: "underline", borderBottom: "3px solid grey", boxShadow: "0px 4px 2px -2px grey", display: "inline-block", paddingBottom: "5px" }}>
+    <div className='h-[23rem]'  id='experience' style={{ textAlign: "center",  }}>
+      <h1 className='mt-7 boldtext-6xl font-bold text-3xl' style={{ fontWeight: "bold", textDecoration: "underline", borderBottom: "3px solid grey", boxShadow: "0px 4px 2px -2px grey", display: "inline-block", paddingBottom: "5px" }}>
         Experience
       </h1>
       

@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <div id='Contact'
       style={{
-        background: "linear-gradient(to bottom,  rgb(85, 74, 86), white)",
+       
         padding: "40px",
         textAlign: "center",
         width: "100vw", // Covers the entire width
@@ -30,7 +30,7 @@ const Contact = () => {
         </h2>
 
         <ul style={{ listStyle: "none", padding: 0, textAlign: "left" }}>
-          <li style={{ marginBottom: "15px" }}>
+          <li className="text-black" style={{ marginBottom: "15px" }}>
             <span style={{ fontWeight: "bold" }}>LinkedIn: </span>
             <a
               href="https://www.linkedin.com/in/audrey-mtumbi-b9795a257/"
@@ -42,7 +42,7 @@ const Contact = () => {
             </a>
           </li>
 
-          <li style={{ marginBottom: "15px" }}>
+          <li className="text-black" style={{ marginBottom: "15px" }}>
             <span style={{ fontWeight: "bold" }}>X: </span>
             <a
               href="https://x.com/AudreyMtumbi"
@@ -54,7 +54,7 @@ const Contact = () => {
             </a>
           </li>
 
-          <li style={{ marginBottom: "15px" }}>
+          <li className="text-black" style={{ marginBottom: "15px" }}>
             <span style={{ fontWeight: "bold" }}>Facebook: </span>
             <a
               href="https://www.facebook.com/audrey.ynes"
@@ -66,7 +66,7 @@ const Contact = () => {
             </a>
           </li>
 
-          <li style={{ marginBottom: "15px" }}>
+          <li className="text-black" style={{ marginBottom: "15px" }}>
             <span style={{ fontWeight: "bold" }}>Instagram: </span>
             <a
               href="https://www.instagram.com/ynes_xo/"
